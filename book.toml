@@ -1,0 +1,10 @@
+[book]
+authors = ["jedeop"]
+language = "ko"
+multilingual = false
+src = "src"
+title = "아두이노 기초 수업"
+
+[output.html]
+additional-css = ["css/fonts.css"]
+copy-fonts = false
