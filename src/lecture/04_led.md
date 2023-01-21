@@ -26,15 +26,15 @@ pinMode(핀번호, 모드)
 ```
 - 핀번호: 입력 모드를 지정할 아두이노 핀의 번호
 - 모드:
-  - `INPUT`: 입력 모드 (= 이 핀으로 디지털 입력을 받을거에요!)
-  - `OUTPUT`: 출력 모드 (= 이 핀으로 디지털 출력을 할거에요!)
+  - `INPUT`: 입력 모드 (= 이 핀으로 디지털 신호를 입력받을 거에요!)
+  - `OUTPUT`: 출력 모드 (= 이 핀으로 디지털 신호를 출력할 거에요!)
   - `INPUT_PULLUP`
 
 [레퍼런스](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/)
 
 ### digitalWrite 함수
 디지털 핀을 `HIGH` 또는 `LOW`로 설정합니다.
-핀이 `OUTPUT`으로 설정되어 있다면, `HIGH`일 때 5V(UNO 기준)를 출력하고, `LOW`일 때 0V를 출력한다.
+핀이 `OUTPUT`으로 설정되어 있다면, `HIGH`일 때 5V(UNO 기준)를 출력하고, `LOW`일 때 0V를 출력합니다.
 
 ```cpp
 digitalWrite(핀번호, 값)
