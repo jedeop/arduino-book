@@ -11,19 +11,10 @@
 
 ## 소스코드
 ```cpp
-int LED_PIN = 2;
-
-void setup() {
-  pinMode(LED_PIN, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(LED_PIN, HIGH);
-  delay(1000);
-  digitalWrite(LED_PIN, LOW);
-  delay(1000);
-}
+{{#include ../../arduino/04_led/04_led.ino}}
 ```
+
+## 설명
 
 ### pinMode 함수
 특정 핀이 입력 모드로 작동할지, 출력 모드로 작동할지 지정합니다.
